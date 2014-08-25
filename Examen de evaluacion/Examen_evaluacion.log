@@ -1,0 +1,578 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.11)  22 AUG 2014 23:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode\input Examen_evaluacion.tex
+(./Examen_evaluacion.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count87
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/xlop/xlop.sty
+Package: xlop 2009/12/02 package wrapper for xlop.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/xlop/xlop.tex
+\op@count@z=\count88
+\op@count@i=\count89
+\op@count@ii=\count90
+\op@count@iii=\count91
+\op@count@iv=\count92
+\op@count@v=\count93
+\op@count@vi=\count94
+\op@currentstyle=\toks20
+
+`xlop' v0.25  <2013/02/26> (jcc)
+\opcolumnwidth=\dimen103
+\oplineheight=\dimen104
+\op@strutbox=\box26
+\op@decimalsepwidth=\dimen105
+\op@decimalsepoffset=\dimen106
+\op@hrulewidth=\dimen107
+\op@vrulewidth=\dimen108
+\op@parenthesis=\count95
+\op@token=\count96
+\op@stack=\count97
+\op@stackb=\count98
+)) (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/genmisc/longdiv.tex
+\gpten=\count100
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen111
+\WF@size=\dimen112
+\c@WF@wrappedlines=\count101
+\WF@box=\box27
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks23
+\float@box=\box28
+\@float@everytoks=\toks24
+\@floatcapt=\box29
+)
+(./Examen_evaluacion.aux)
+\openout1 = `Examen_evaluacion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen113
+\scratchbox=\box30
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen114
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--54
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (28.01651pt too wide) in paragraph at lines 55--73
+[] \OT1/cmr/m/n/10 + [] =$  $[] + [] =$  $1[] + [] =$   
+ []
+
+
+Overfull \hbox (28.01651pt too wide) in paragraph at lines 55--73
+[] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 =$  $[] \OMS/cmsy/m/n/10 ^^@ [] \OT1
+/cmr/m/n/10 =$  $1[] + [] =$   
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--73
+
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   $
+l.96 ...}=$ \hspace{2cm} $\frac{x^2}{x}=$ \hspace$
+                                                  \frac{a^2-ba}{a}$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   $
+l.96 ...}=$ \hspace{2cm} $\frac{x^2}{x}=$ \hspace$
+                                                  \frac{a^2-ba}{a}$
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[2]
+! Undefined control sequence.
+l.110 $a^2-b^2=$ \haspace
+                         {4cm} $9x^2-25z^2=$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3] <all.png, id=22, 467.7475pt x 406.51875pt>
+File: all.png Graphic file (type png)
+ <use all.png>
+Package pdftex.def Info: all.png used on input line 127.
+(pdftex.def)             Requested size: 233.87317pt x 203.25887pt.
+
+<pitagoras.png, id=24, 689.57625pt x 278.03876pt>
+File: pitagoras.png Graphic file (type png)
+ <use pitagoras.png>
+Package pdftex.def Info: pitagoras.png used on input line 134.
+(pdftex.def)             Requested size: 344.78728pt x 139.01903pt.
+ [4 <./all.png> <./pitagoras.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 141--152
+
+ []
+
+<plot.png, id=30, 339.2675pt x 328.22626pt>
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 155.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 \left
+           \{\begin{tabular}{l}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \begingroup 
+l.163 \end{tabular}\right\.
+                           
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 163.
+
+Runaway argument?
+! Paragraph ended before \OT1\. was complete.
+<to be read again> 
+                   \par 
+l.164 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.164 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (28.8133pt too wide) in paragraph at lines 159--164
+[]\OT1/cmr/m/n/10 Encuentra la soluci^^Son al sigu-iente sis-tema de ecua-cione
+s y grafica: $[]$ 
+ []
+
+File: plot.png Graphic file (type png)
+<use plot.png>
+Package pdftex.def Info: plot.png used on input line 166.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \pagebreak
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5 <./plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 170--181
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183 \left
+           \{\begin{tabular}{l}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \begingroup 
+l.186 \end{tabular}\right\.
+                           
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 186.
+
+Runaway argument?
+! Paragraph ended before \OT1\. was complete.
+<to be read again> 
+                   \par 
+l.187 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.187 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+File: plot.png Graphic file (type png)
+<use plot.png>
+Package pdftex.def Info: plot.png used on input line 189.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: plot.png Graphic file (type png)
+<use plot.png>
+Package pdftex.def Info: plot.png used on input line 198.
+(pdftex.def)             Requested size: 111.95862pt x 108.31499pt.
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 199.
+(pdftex.def)             Requested size: 111.95862pt x 108.31499pt.
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 200.
+(pdftex.def)             Requested size: 111.95862pt x 108.31499pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6]
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 209.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 210.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 211.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 212.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \subsection
+                 *{Cálculo diferencial}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: plot.png Graphic file (type png)
+<use plot.png>
+Package pdftex.def Info: plot.png used on input line 230.
+(pdftex.def)             Requested size: 169.63333pt x 164.11272pt.
+ [7] [8]
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 235.
+(pdftex.def)             Requested size: 203.56206pt x 196.93727pt.
+ [9]
+! Too many }'s.
+l.245 $\int e^x dx=$ \hspace{4cm}}
+                                  $\int \log (x) dx=$
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Display math should end with $$.
+<to be read again> 
+                   \intop 
+l.249 $\int
+            e^x(3x^2+2x+1)dx$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.249 $\int
+            e^x(3x^2+2x+1)dx$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[10] (./Examen_evaluacion.aux) ) 
+Here is how much of TeX's memory you used:
+ 3832 strings out of 495028
+ 49876 string characters out of 6181497
+ 138619 words of memory out of 5000000
+ 6983 multiletter control sequences out of 15000+600000
+ 10898 words of font info for 43 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 37i,10n,35p,356b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Examen_evaluacion.pdf (10 pages, 152923 bytes).
+PDF statistics:
+ 88 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
