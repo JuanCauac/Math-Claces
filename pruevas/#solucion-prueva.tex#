@@ -1,0 +1,26 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{xlop}
+\usepackage{xcolor}
+\input{longdiv}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+%PDF metadata
+\usepackage[pdftex, 
+pdfauthor={Juan Carlos Alvarez},
+pdfsubject={matematicas},
+pdfkeywords={matematicas}]{hyperref}
+%opening
+\hypersetup{pdftitle={Solucion prueva}}
+\title{Solución}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+$$ $$
+
+
+\end{document}
