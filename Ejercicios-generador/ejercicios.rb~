@@ -1,3 +1,6 @@
+load "/home/juan/Desktop/Math-Claces/Ejercicios-generador/numalg.rb"
+require 'matrix'
+require 'cmath'
 
 class Ejercicios
 
@@ -693,7 +696,7 @@ for i in 1..n
 
 	cr=[cs[0],cs[1]].product([cs[2], cs[3]]).collect{ |x| x.inject(:*)  }	
 	br=[b[0],b[1]].product([b[2], b[3]]).collect{ |x| x.inject(:+)  }
-	er=[e[0],e[1]].product([b[2], b[3]])
+	er=[e[0],e[1]].product([e[2], e[3]])
 
 	latexr=Array.new(2)
 	@files[1].syswrite("= ")
@@ -707,13 +710,236 @@ for i in 1..n
 	@c=@c+1
 end #for i 
 
-end#termina multiplicacion_algebraica_tres
+end#termina multiplicacion_algebraica_cuatro
+
+
+def self.multiplicacion_binomio_cuadrado(n, ins=TRUE) #check
+#multiplicacion algebráica binomio al cuadrado
+if ins
+@files.each{|a| a.syswrite("Eleva al cuadrado los siguientes binomios: \\vspace{1cm}\\\\ \n")}
+end
+
+for i in 1..n
+a=Random.new
+letras=('a'..'z').to_a
+signs=["+","-"]
+base=letras.sample(2)
+exp1=a.rand(8)+2
+exp2=a.rand(8)+2
+
+##NumAlg.new(sign,coef,base,exp)
+alg1=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp1])
+alg2=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp2])
+
+@files.each{|a| a.syswrite("#{@c})$")}
+@files.each{|a| a.syswrite("(#{alg1.lx}#{alg2.lx})^2=")}
+@files[0].syswrite("$\\vspace{1cm}\\\\ \n")
+
+ab=alg1.mult(alg2)
+c=ab.coef
+ab.coef=2*c
+ab=ab.refresh
+
+@files[1].syswrite("#{alg1. mult(alg1).lx} #{ab.lx} #{alg2. mult(alg2).lx}$\\vspace{1cm}\\\\ \n")
+@c=@c+1
+end
+
+end#termina multiplicacion_binomio_cuadrado
+
+
+def self.multiplicacion_binomios_conjugados(n, ins=TRUE) #check
+#multiplicacion algebráica binomio al cuadrado
+if ins
+@files.each{|a| a.syswrite("Multiplica los siguientes binomios: \\vspace{1cm}\\\\ \n")}
+end
+
+for i in 1..n
+a=Random.new
+letras=('a'..'z').to_a
+signs=["+","+"]
+
+base=letras.sample(2)
+exp1=a.rand(8)+2
+exp2=a.rand(8)+2
+
+##NumAlg.new(sign,coef,base,exp)
+alg1=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp1])
+alg2=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp2])
+
+alg3=alg2.refresh
+alg3.sign="-"
+alg3=alg3.refresh
+
+@files.each{|a| a.syswrite("#{@c})$")}
+
+@files.each{|a| a.syswrite("(#{alg1.lx}#{alg2.lx})(#{alg1.lx}#{alg3.lx})=")}
+@files[0].syswrite("$\\vspace{1cm}\\\\ \n")
+
+
+@files[1].syswrite("#{alg1. mult(alg1).lx} #{alg2. mult(alg3).lx}$\\vspace{1cm}\\\\ \n")
+@c=@c+1
+end
+
+end#termina multiplicacion_binomios_conjugados
+
+def self.multiplicacion_binomios_especial(n, ins=TRUE) #check
+#multiplicacion algebráica binomio al cuadrado
+if ins
+@files.each{|a| a.syswrite("Multiplica los siguientes binomios: \\vspace{1cm}\\\\ \n")}
+end
+
+for i in 1..n
+a=Random.new
+letras=('a'..'z').to_a
+signs=["+","-"]
+
+base=letras.sample(2)
+exp1=a.rand(8)+2
+exp2=a.rand(8)+2
+
+##NumAlg.new(sign,coef,base,exp)
+alg1=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp1])
+alg2=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp2])
+alg3=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp1])
+alg4=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp2])
 
 
 
+@files.each{|a| a.syswrite("#{@c})$")}
+
+@files.each{|a| a.syswrite("(#{alg1.lx}#{alg2.lx})(#{alg3.lx}#{alg4.lx})=")}
+@files[0].syswrite("$\\vspace{1cm}\\\\ \n")
+
+sol1=alg1.mult(alg4)
+sol2=alg2.mult(alg3)
+sol3=sol1.sum(sol2)
+
+@files[1].syswrite("#{alg1. mult(alg3).lx}#{sol3.lx}#{alg2. mult(alg4).lx}$\\vspace{1cm}\\\\ \n")
+@c=@c+1
+end
+
+end#termina multiplicacion_binomios_conjugados
+
+
+def self.ecuaciones_simultaneas(n, ins=TRUE) #check
+#Ecuaciones simultaneas lineales
+if ins
+@files.each{|a| a.syswrite("Resuelve los siguientes sistemas de ecuaciones: \\vspace{1cm}\\\\ \n")}
+end
+for i in 1..n
+
+a=Random.new
+base=["x","y"]
+signs=["+","-"]
+exp=""
+
+
+##NumAlg.new(sign,coef,base,exp)
+x1=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp])
+y1=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp])
+x2=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[0]],[exp])
+y2=NumAlg.new(signs[a.rand(2)],a.rand(8)+2,[base[1]],[exp])
+c1=a.rand(20)-10
+c2=a.rand(20)-10
+
+m=Matrix[ [x1.coef, y1.coef], [x2.coef, y2.coef] ]
+c=Matrix[ [c1], [c2] ]
+
+det=m.det
+if det !=0
+inv=m.inv
+sol=m*c
+end
+
+@files.each{|a| a.syswrite("#{@c}) \\hspace\{.3cm\}$
+\\left\\{
+\\begin\{array\}\{l\}
+#{x1.lx}#{y1.lx}=#{c1}\\\\
+#{x2.lx}#{y2.lx}=#{c2}\\\\
+\\end\{array\}
+\\right.
+$\\\\ \n")}
+@files[0].syswrite("\\vspace{5cm}\\\\ \n")	
+if det !=0
+@files[1].syswrite(
+"
+\\vspace\{0.5cm\}
+$\\left[
+\\begin\{array\}\{c\}
+x\\\\
+y \\\\
+\\end\{array\}
+\\right]
+=
+\\frac\{1\}\{#{det}\}
+\\left[
+\\begin\{array\}\{cc\}
+#{x1.coef} & #{y1.coef} \\\\
+#{x2.coef} & #{y2.coef} \\\\
+\\end\{array\}
+\\right]
+\\left[
+\\begin\{array\}\{c}\
+#{c1}\\\\
+#{c2}\\\\
+\\end\{array\}
+\\right]$
+\\vspace{0.5cm}\\\\ \n
+\\fbox\{ x=#{sol[0,0]},  y=#{sol[1,0]}\}\\\\
+\\vspace{0.5cm}\\\\ \n"
+)
+else
+@files[1].syswrite("el sistema no tiene solución")
+end
+
+@c=@c+1
+end
+
+end#termina ecuaciones_simultaneas
+
+
+def self.raices_cuadraticas(n, ins=TRUE) #check
+#Ecuaciones simultaneas lineales
+if ins
+@files.each{|a| a.syswrite("Encuentra las raices de los siguientes polinomios: \\vspace{1cm}\\\\ \n")}
+end
+
+for i in 1..n
+r=Random.new
+base=["x"]
+signs=["+","-"]
+exp=""
+
+##NumAlg.new(sign,coef,base,exp)
+x2=NumAlg.new(signs[r.rand(2)],r.rand(8)+2,base,[2])
+x1=NumAlg.new(signs[r.rand(2)],r.rand(8)+2,base,[1])
+
+a=x2.coef
+b=x1.coef
+c=r.rand(20)-10
+
+
+root1=-b+CMath.sqrt(b**2-4*a*c)/(2*a)
+root2=-b-CMath.sqrt(b**2-4*a*c)/(2*a)
+
+c>0 ? cs="+#{c}" : cs=c  
+
+
+@files.each{|a| a.syswrite("#{@c}) $ #{x2.lx}#{x1.lx}#{cs}$ ")}
+@files[0].syswrite("\\vspace{3cm}\\\\ \n")	
+@files[1].syswrite("
+\\vspace{0.5cm}\\\\ 
+$\\frac\{-(#{b})\\pm\\sqrt\{#{b}^2-4(#{a})(#{cs})\}  \}\{2(#{a})\}$
+\\vspace{0.5cm}\\\\
+$x_1=#{root1}$
+$x_2=#{root2}$
+\\vspace{1cm}\\\\ \n")	
 
 
 
+@c=@c+1
+end
+end# termina raices_cuadraticas
 
 
 
